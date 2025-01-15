@@ -1,8 +1,16 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vite.dev/config/
+// https://vitejs.dev/config/
 export default defineConfig({
-  base: '/bloodbank/',
+  base: '/BloodHeroesApp/',  // Update this with your repository name
   plugins: [react()],
-})
+  build: {
+    outDir: 'dist',  // Ensure the build output goes to the dist folder
+    sourcemap: true, // Enable sourcemaps for debugging
+  },
+  server: {
+    open: true, // Automatically open the browser when running the dev server
+    port: 3000, // Set the port for the development server
+  },
+});
