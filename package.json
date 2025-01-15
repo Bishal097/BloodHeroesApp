@@ -23,10 +23,10 @@
     "react-bootstrap": "^2.10.7",
     "react-router-dom": "^7.1.1",
     "tailwind-merge": "^2.6.0",
-    "@mui/material": "^5.8.0",          // Added MUI material
-    "@emotion/react": "^11.9.0",        // Added Emotion React
-    "@emotion/styled": "^11.9.0",       // Added Emotion Styled
-    "@mui/icons-material": "^5.8.0"     // Added MUI icons material
+    "@mui/material": "^5.8.0",          
+    "@emotion/react": "^11.9.0",        
+    "@emotion/styled": "^11.9.0",      
+    "@mui/icons-material": "^5.8.0"     
   },
   "devDependencies": {
     "@eslint/js": "^9.18.0",
