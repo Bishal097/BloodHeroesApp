@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'dist',  // Ensure the build output goes to the dist folder
-    sourcemap: true, // Enable sourcemaps for debugging
+    sourcemap: true, // Enable sourcemaps for debuggingfbdfbd
   },
   server: {
     open: true, // Automatically open the browser when running the dev server
